@@ -90,7 +90,9 @@ a {
   padding: 10px 20px;
   margin: 20px auto 15px auto;
   letter-spacing: 1px;
-  transition: all .5s ease;
+  transition-property: background-color;
+  transition-duration: .4s;
+
 }
 .btn:hover {
   background-color: #dffdfa;
@@ -499,7 +501,7 @@ img.full {
 .copy-block p.author {
   margin: -20px 0 30px 0;
   font-size: 20px;
-  color: #FA7D52;
+  color: #dd4949;
 
 }
 .copy-block ul li:before {
@@ -704,7 +706,7 @@ img.full {
   letter-spacing: .5px;
 }
 .btn-book p.subtitle {
-  color: #FA7D52;
+  color: #dd4949;
   font-size: 16px;
   font-style: italic;
   margin: 0 0 0 0;
@@ -772,7 +774,7 @@ img.full {
   }
 .events-list .event-item .event-info p.subtitle {
   font-size: 16px;
-  color: #FA7D52;
+  color: #dd4949;
   margin-top: -15px;
   margin-bottom: 14px;
   }
@@ -850,7 +852,7 @@ img.full {
 }
 .resource-list .resource-item p.subtitle {
   font-size: 14px;
-  color: #FA7D52;
+  color: #dd4949;
   margin-top: 8px;
 }
 @media screen and (min-width: 768px) {
