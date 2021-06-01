@@ -426,6 +426,10 @@ img.full {
 .image-grid {
   max-width: 630px;
 }
+.image-grid.half{
+  width:50%;
+  max-width: unset;
+}
 @media screen and (min-width: 1024px) {
   .image-grid {
     max-width: 430px;
@@ -438,7 +442,7 @@ img.full {
   width: 100%;
 }
 .img-two {
-  width: calc(50% - 10px);
+  width: calc(50% - 10px);              
   margin: 20px 10px 0 0;
   height: 40%;
 }
@@ -964,4 +968,130 @@ img.full {
   min-height: 200px;
 }
 
+/* Kainos section */
+.Kainos-Page{
+  position: relative;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (min-width: 480px) {
+  .Kainos-Page {
+    padding-right: 50px;
+    padding-left: 50px;  
+  }
+}
+@media screen and (min-width: 768px) {
+  .Kainos-Page{
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+.gutter-kainos{
+  position: relative;
+  max-width: 976px;
+  margin: 0 auto;
+}
+.kainos-start{
+  
+}
+.start-gutter{
+  display:flex;
+}
+@media screen and (min-width:240px){
+  .start-gutter{
+    display: block;
+  }
+}
+@media screen and (min-width:240px){
+  .image-grid-kainos{
+    width:100% !important;
+  }
+}
+@media screen and (min-width:950px){
+  .start-gutter{
+    display: flex;
+  }
+}
 
+
+@media screen and (min-width:240px){
+  .info-block{
+    width: 100% !important;
+    max-width: 800px;
+  }
+}
+
+.image-grid-kainos{
+  width:50%;
+  padding-top: 50px;
+}
+
+.img-kainos{
+  width: 100%;
+  
+}
+.info-block{
+  width:50%;
+  padding-top: 45px;
+  padding-left: 30px;
+}
+.info{
+  width:100%;
+  font-size: 14px;
+}
+p.lable{
+  font-weight: bold;
+  color: #7234B0;
+  line-height: 3px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  
+}
+p.small-sect{
+  line-height: 170%;
+  margin: 0 !important;
+}
+.divider{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+hr{
+  border-color:#7234B0;
+}
+.summary{
+  width: 100%;
+  padding: 0%;
+  font-size: 16px;
+  line-height: 170%;
+  max-width:800px;
+  padding-top: 45px;
+  
+}
+.addInformation{
+  width: 100%;
+  font-size: 16px;
+  line-height: 170%;
+  max-width: 800px;
+}
+.abstract-2{
+  position: absolute;
+  width:800px;
+  height: 900px;
+  z-index: -1;
+  top: 30%;
+  background: transparent url('images/abstract-2.jpg') no-repeat;
+  
+}
+.footer-kainos{
+  min-height: 200px;
+}
+.abstract-5-kainos{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 359px;
+  height: 537px;
+  z-index: -1;
+  background: transparent url('images/abstract-5.jpg') top right no-repeat;
+  background-size: 359px 537px;
+}
