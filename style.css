@@ -1119,7 +1119,7 @@ hr{
 }
 .bard h1 {
   max-width: 700px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .bard h2 {
   font-size: 36px;
@@ -1179,4 +1179,7 @@ hr{
 }
 a.hidden-link {
   color: #FFFDED;
+}
+.bard p.date {
+  margin-bottom: 40px;
 }
