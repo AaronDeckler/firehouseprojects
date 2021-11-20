@@ -1154,14 +1154,28 @@ hr{
   font-style: italic;
 }
 .bard img.alignleft {
-  float: left;
-  margin: 0 30px 30px 0;
+  margin: 20px 0;
+  width: 100%;
   max-width: 350px;
 }
+@media screen and (min-width: 480px) {
+  .bard img.alignleft {
+    float: left;
+    margin: 0 30px 30px 0;
+    max-width: 350px;
+  }
+}
 .bard img.alignright {
-  float: right;
-  margin: 0 0 30px 30px;
+  margin: 20px 0;
+  width: 100%;
   max-width: 350px;
+}
+@media screen and (min-width: 480px) {
+  .bard img.alignright {
+    float: right;
+    margin: 0 0 30px 30px;
+    max-width: 350px;
+  }
 }
 a.hidden-link {
   color: #FFFDED;
