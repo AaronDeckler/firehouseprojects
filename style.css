@@ -49,6 +49,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.trim {
+  margin-top: 100px;
+
+}
 .first > div {
   display: flex;
   flex-direction: column;
@@ -89,6 +93,7 @@ a {
   text-align: center;
   padding: 10px 20px;
   margin: 20px auto 15px auto;
+  max-width: 300px;
   letter-spacing: 1px;
   transition-property: background-color;
   transition-duration: .4s;
@@ -1182,4 +1187,7 @@ a.hidden-link {
 }
 .bard p.date {
   margin-bottom: 40px;
+}
+.book-row {
+  z-index: 50;
 }
