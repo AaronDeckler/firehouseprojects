@@ -871,6 +871,29 @@ img.full {
   margin: 0;
   font-weight: 400;
 }
+.events-list .event-item .triple-info {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.events-list .event-item .triple-info div {
+  width: 50%;
+  min-width: 110px;
+}
+@media screen and (min-width: 1024px) {
+  .events-list .event-item .triple-info div {
+    width: 33%;
+  }
+}
+.events-list .event-item .triple-info h5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+.events-list .event-item .triple-info p {
+  font-size: 14px;
+  margin-top: 10px;
+}
 .sec-six {
   margin-top: 50px;
   position: relative;
