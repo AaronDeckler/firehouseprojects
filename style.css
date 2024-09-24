@@ -78,7 +78,7 @@ p.tiny {
   max-width: 400px;
 }
 a {
-  color: #66CCD2;
+  color: #31878c;
 }
 .btn {
   display: flex;
@@ -86,8 +86,8 @@ a {
   align-items: center;
   background-color: transparent;
   border-radius: 6px;
-  border: 2px solid #66CCD2;
-  color: #22a1a8;
+  border: 2px solid #31878c;
+  color: #31878c;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -105,8 +105,12 @@ a {
 .btn span {
 
 }
+.btn.btn-nocenter {
+  margin-left: 0;
+  margin-right: 0;
+}
 .btn.btn-fill {
-  background-color: #66CCD2;
+  background-color: #31878c;
   color: #fff;
 }
 .btn.btn-fill:hover, .btn.btn-fill:focus {
@@ -1010,19 +1014,19 @@ img.full {
 }
 
 /* Kainos section */
-.Kainos-Page{
+.Kainos-Page, .gutter-main {
   position: relative;
   padding-right: 30px;
   padding-left: 30px;
 }
 @media screen and (min-width: 480px) {
-  .Kainos-Page {
+  .Kainos-Page, .gutter-main {
     padding-right: 50px;
     padding-left: 50px;  
   }
 }
 @media screen and (min-width: 768px) {
-  .Kainos-Page{
+  .Kainos-Page, .gutter-main{
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -1035,8 +1039,27 @@ img.full {
 .kainos-start{
   
 }
+.landing-page {
+
+}
+.landing-page  h1 {
+  font-size: 36px;
+  color: #000000;
+
+  @media screen and (min-width:600px){
+    font-size: 54px;
+  }
+
+}
+.landing-page p {
+  font-size: 20px;
+  line-height: 140%;
+
+}
 .start-gutter{
   display:flex;
+  max-width: 768px;
+  margin-top: 40px;
 }
 @media screen and (min-width:240px){
   .start-gutter{
