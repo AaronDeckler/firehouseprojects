@@ -1156,6 +1156,7 @@ p.lable{
 p.small-sect{
   line-height: 170%;
   margin: 0 !important;
+  font-size: 20px;
 }
 .divider{
   padding-top: 25px;
@@ -1312,4 +1313,34 @@ a.hidden-link {
 }
 .book-row {
   z-index: 50;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+
+  @media screen and (min-width: 480px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+}
+
+.photo-grid-item {
+  border-radius: 10px;
+  max-width: 400px;
+  overflow: hidden;
+
+}
+.photo-grid-item img {
+  display: block;
+  width: 100%;
+
 }
